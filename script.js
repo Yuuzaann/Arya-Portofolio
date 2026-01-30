@@ -36,3 +36,5 @@ window.addEventListener('scroll', () => {
         navLink.classList.add('bg-white', 'shadow-sm', 'bg-opacity-50', 'dark:border', 'dark:border-white/30', "dark:bg-transparent");
     }
 })
+
+document.getElementById("year").textContent = new Date().getFullYear();
